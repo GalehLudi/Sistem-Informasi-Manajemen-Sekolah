@@ -1,4 +1,4 @@
-Sistem Informasi Management Sekolah By <a href="https://www.instagram.com/galehludi/">Galeh Ludi</a>
+Sistem Informasi Management Sekolah By <a target="_blank" href="https://www.instagram.com/galehludi/">Galeh Ludi</a>
 
 Auth dibangun menggunakan package Jetstream Livewire<br>
 https://jetstream.laravel.com/
