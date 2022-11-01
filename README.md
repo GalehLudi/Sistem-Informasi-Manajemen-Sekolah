@@ -13,5 +13,6 @@ Aplikasi dibangun menggunakan database lama dengan penambahan beberapa schema
 
 1. Jalankan perintah php artisan migrate:refresh
 2. Jalankan perintah php artisan db:seed
+3. Rename file .env copy menjadi .env
 
 NOTE : JANGAN PASTE APLIKASI INI PADA PROJECT LARAVEL LAMA
