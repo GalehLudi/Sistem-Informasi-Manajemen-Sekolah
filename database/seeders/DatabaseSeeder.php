@@ -50,9 +50,9 @@ class DatabaseSeeder extends Seeder
     User::create([
       'id'                => 1,
       'name'              => 'Galeh Ludi',
-      'email'             => 'galehludi@outlook.co.id',
+      'email'             => 'admin@gamil.com',
       'email_verified_at' => now(),
-      'password'          => '$2y$10$Uy0Fbem0frcrX28p.0ChE.EkootBX74n8.E/CPa22UrI/wKrswyh.',
+      'password'          => '$2y$10$7v9mH4qcAh4aDZQOBhUM2eQiVCNTyVeeRNwwZw4WVWoj1BM1CqhxS',
       'created_at'        => now(),
       'updated_at'        => now()
     ]);
