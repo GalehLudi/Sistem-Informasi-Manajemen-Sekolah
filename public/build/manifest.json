@@ -1,0 +1,12 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app.7cafe3db.js",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app.18e407b7.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  }
+}
