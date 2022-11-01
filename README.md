@@ -15,4 +15,8 @@ Aplikasi dibangun menggunakan database lama dengan penambahan beberapa schema
 2. Jalankan perintah php artisan db:seed
 3. Rename file .env copy menjadi .env
 
+Login :
+email = admin@gmail.com
+password = Admin123
+
 NOTE : JANGAN PASTE APLIKASI INI PADA PROJECT LARAVEL LAMA
