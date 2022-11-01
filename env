@@ -2,7 +2,7 @@ APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=base64:3EHhDfO4CoIkeyFDdtOibQc57Z/WdIhw4ijfRkxCrLA=
 APP_DEBUG=true
-APP_URL=http://project-laravel9-new.test
+APP_URL=http://sistem-informasi-manajemen-sekolah.test
 
 LOG_CHANNEL=stack
 LOG_DEPRECATIONS_CHANNEL=null

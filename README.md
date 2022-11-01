@@ -1,7 +1,5 @@
 # Sistem Informasi Manajemen Sekolah
 
-***
-
 ## Table of Content
 
 - [Sistem Informasi Manajemen Sekolah](#sistem-informasi-manajemen-sekolah)
