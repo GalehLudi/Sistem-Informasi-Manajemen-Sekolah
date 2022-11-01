@@ -1,10 +1,10 @@
-# Sistem Informasi Manajenen Sekolah Laravel
+# Sistem Informasi Manajemen Sekolah
 
 ***
 
 ## Table of Content
 
-- [Sistem Informasi Manajenen Sekolah Laravel](#sistem-informasi-manajenen-sekolah-laravel)
+- [Sistem Informasi Manajemen Sekolah](#sistem-informasi-manajemen-sekolah)
   - [Table of Content](#table-of-content)
   - [Third Party](#third-party)
     - [Front End](#front-end)
@@ -30,7 +30,7 @@
 
 ## Installation
 
-1. Clone Repo: `git clone https://github.com/GalehLudi/Project-SIM-Sekolah.git`
+1. Clone Repo: `git clone https://github.com/GalehLudi/Sistem-Informasi-Manajemen-Sekolah.git`
 2. Rename `env` file to `.env`
 3. Run `composer update`
 4. Run `php artisan key:generate`
@@ -46,4 +46,4 @@ Login :&#x20;
 | `admin@gmail.com` | Admin123 |
 
 ***
-Sistem Informasi Manajemen Sekolah Laravel 9 created by [Galeh Ludi](https://instagram/galehludi/)
+Sistem Informasi Manajemen Sekolah created by [Galeh Ludi](https://instagram/galehludi/)
