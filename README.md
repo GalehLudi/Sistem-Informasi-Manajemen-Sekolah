@@ -1,25 +1,49 @@
-Sistem Informasi Management Sekolah By <a target="_blank" href="https://www.instagram.com/galehludi/">Galeh Ludi</a>
+# Sistem Informasi Manajenen Sekolah Laravel
 
-Auth dibangun menggunakan package Jetstream Livewire<br>
-https://jetstream.laravel.com/
+***
 
-Level managemen dibangun menggunakan package Spatie Laravel Permission<br>
-https://spatie.be/docs/laravel-permission/v5/introduction
+## Table of Content
 
-Cetak PDF menggunakan DOMPDF<br>
-https://github.com/barryvdh/laravel-dompdf
+- [Sistem Informasi Manajenen Sekolah Laravel](#sistem-informasi-manajenen-sekolah-laravel)
+  - [Table of Content](#table-of-content)
+  - [Third Party](#third-party)
+    - [Front End](#front-end)
+    - [Back End](#back-end)
+  - [Installation](#installation)
 
-Aplikasi dibangun menggunakan database lama dengan penambahan beberapa schema
+## Third Party
 
-<ol>
-  <li>Jalankan Perintah composer update</li>
-  <li>Jalankan perintah php artisan migrate:refresh</li>
-  <li>Jalankan perintah php artisan db:seed</li>
-  <li>Rename file .env copy menjadi .env</li>
-</ol>
+### Front End
 
-Login : <br>
-email = admin@gmail.com <br>
-password = Admin123 <br>
+| Name      | Link                       |
+| --------- | -------------------------- |
+| Bootstrap | <https://getbootstrap.com> |
+| Jquery    | <https://jquery.com>       |
 
-NOTE : JANGAN PASTE APLIKASI INI PADA PROJECT LARAVEL LAMA
+### Back End
+
+| Name                      | Link                                                        |
+| ------------------------- | ----------------------------------------------------------- |
+| Jetstream Livewire        | <https://jetstream.laravel.com/>                            |
+| Spatie Laravel Permission | <https://spatie.be/docs/laravel-permission/v5/introduction> |
+| DOMPDF                    | <https://github.com/barryvdh/laravel-dompdf>                |
+
+## Installation
+
+1. Clone Repo: `git clone https://github.com/GalehLudi/Project-SIM-Sekolah.git`
+2. Rename `env` file to `.env`
+3. Run `composer update`
+4. Run `php artisan key:generate`
+5. Change `.env` file on `DB_DATABASE` to your database name
+6. Check and change `DB_USERNAME` and `DB_PASSWORD` to your configuration database
+7. Run `php artisan migrate` or `php artisan migrate:refresh`
+8. Run `php artisan db:seed`
+9. Run server using `php artisan serve`
+
+Login :&#x20;
+| Email             | Password |
+| ----------------- | -------- |
+| `admin@gmail.com` | Admin123 |
+
+***
+Sistem Informasi Manajemen Sekolah Laravel 9 created by [Galeh Ludi](https://instagram/galehludi/)
