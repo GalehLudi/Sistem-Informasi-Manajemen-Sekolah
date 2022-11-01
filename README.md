@@ -1,12 +1,12 @@
-Sistem Informasi Management Sekolah By Galeh Ludi
+Sistem Informasi Management Sekolah By <a href="https://www.instagram.com/galehludi/">Galeh Ludi</a>
 
-Auth dibangun menggunakan package Jetstream Livewire
+Auth dibangun menggunakan package Jetstream Livewire<br>
 https://jetstream.laravel.com/
 
-Level managemen dibangun menggunakan package Spatie Laravel Permission
+Level managemen dibangun menggunakan package Spatie Laravel Permission<br>
 https://spatie.be/docs/laravel-permission/v5/introduction
 
-Cetak PDF menggunakan DOMPDF
+Cetak PDF menggunakan DOMPDF<br>
 https://github.com/barryvdh/laravel-dompdf
 
 Aplikasi dibangun menggunakan database lama dengan penambahan beberapa schema
@@ -15,8 +15,8 @@ Aplikasi dibangun menggunakan database lama dengan penambahan beberapa schema
 2. Jalankan perintah php artisan db:seed
 3. Rename file .env copy menjadi .env
 
-Login :
-email = admin@gmail.com
-password = Admin123
+Login : <br>
+email = admin@gmail.com <br>
+password = Admin123 <br>
 
 NOTE : JANGAN PASTE APLIKASI INI PADA PROJECT LARAVEL LAMA
