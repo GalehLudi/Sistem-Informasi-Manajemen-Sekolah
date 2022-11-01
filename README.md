@@ -11,9 +11,12 @@ https://github.com/barryvdh/laravel-dompdf
 
 Aplikasi dibangun menggunakan database lama dengan penambahan beberapa schema
 
-1. Jalankan perintah php artisan migrate:refresh
-2. Jalankan perintah php artisan db:seed
-3. Rename file .env copy menjadi .env
+<ol>
+  <li>Jalankan Perintah composer update</li>
+  <li>Jalankan perintah php artisan migrate:refresh</li>
+  <li>Jalankan perintah php artisan db:seed</li>
+  <li>Rename file .env copy menjadi .env</li>
+</ol>
 
 Login : <br>
 email = admin@gmail.com <br>
