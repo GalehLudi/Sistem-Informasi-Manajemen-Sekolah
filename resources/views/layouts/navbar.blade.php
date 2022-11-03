@@ -60,7 +60,7 @@
         <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
           {{ Auth::user()->name }}
         </button>
-        <ul class="dropdown-menu dropdown-menu-end">
+        <ul class="dropdown-menu dropdown-menu-lg-end">
           <li>
             <a href="{{ route('profile.show') }}" class="dropdown-item">Profil</a>
           </li>

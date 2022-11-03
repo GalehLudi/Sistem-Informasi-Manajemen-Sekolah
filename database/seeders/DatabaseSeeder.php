@@ -47,11 +47,11 @@ class DatabaseSeeder extends Seeder
       ],
     ]);
 
-    User::create([
+    DB::table('users')->insertOrIgnore([
       [
         'id'                => 1,
         'name'              => 'Super Admin',
-        'email'             => 'admin@gamil.com',
+        'email'             => 'admin@gmail.com',
         'email_verified_at' => now(),
         'password'          => '$2y$10$7v9mH4qcAh4aDZQOBhUM2eQiVCNTyVeeRNwwZw4WVWoj1BM1CqhxS',
         'created_at'        => now(),
@@ -60,7 +60,7 @@ class DatabaseSeeder extends Seeder
       [
         'id'                => 2,
         'name'              => 'Admin',
-        'email'             => 'admin2@gamil.com',
+        'email'             => 'admin2@gmail.com',
         'email_verified_at' => now(),
         'password'          => '$2y$10$7v9mH4qcAh4aDZQOBhUM2eQiVCNTyVeeRNwwZw4WVWoj1BM1CqhxS',
         'created_at'        => now(),
@@ -69,21 +69,30 @@ class DatabaseSeeder extends Seeder
       [
         'id'                => 3,
         'name'              => 'Publik',
-        'email'             => 'publik@gamil.com',
+        'email'             => 'publik@gmail.com',
         'email_verified_at' => now(),
         'password'          => '$2y$10$WZcu3jMB3QHkJZRHkI5yz.MGm.S4xutg.33HbIQodOouhypxiWP2K',
         'created_at'        => now(),
         'updated_at'        => now()
+      ]
+    ]);
+
+    DB::table('model_has_roles')->insertOrIgnore([
+      [
+        'model_id'   => 1,
+        'model_type' => 'App\Models\User',
+        'role_id'    => 3
       ],
-    ]);
-
-    $role = DB::table('model_has_roles');
-    $role->find(1)->update([
-      'role_id' => 2
-    ]);
-
-    $role->find(2)->update([
-      'role_id' => 3
+      [
+        'model_id'   => 2,
+        'model_type' => 'App\Models\User',
+        'role_id'    => 2
+      ],
+      [
+        'model_id'   => 3,
+        'model_type' => 'App\Models\User',
+        'role_id'    => 1
+      ]
     ]);
   }
 }

@@ -11,7 +11,7 @@
     - [Composer](#composer)
     - [Node Js](#node-js)
     - [Laravel](#laravel)
-  - [User Login](#user-login)
+    - [User Login](#user-login)
 
 ## Third Party
 
@@ -58,13 +58,19 @@ Before run `npm install` and `npm run build`
 10. Run `php artisan db:seed`
 11. Run server using `php artisan serve`
 
-## User Login
+### User Login
 
 | Email              | Password  | Level       |
 | ------------------ | --------- | ----------- |
 | `admin@gmail.com`  | Admin123  | Super Admin |
 | `admin2@gmail.com` | Admin123  | Admin       |
 | `publik@gmail.com` | Publik123 | Publik      |
+
+## Update
+
+```text
+> Fix error (03-11-2022)
+```
 
 ***
 
