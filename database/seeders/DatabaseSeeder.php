@@ -94,5 +94,82 @@ class DatabaseSeeder extends Seeder
         'role_id'    => 1
       ]
     ]);
+
+    DB::table('guru')->insertOrIgnore([
+      [
+        'id'         => 1,
+        'nip'        => 123,
+        'nama'       => 'Guru1',
+        'jk'         => 'Laki-laki',
+        'alamat'     => 'Riau',
+        'created_at' => now(),
+        'updated_at' => now()
+      ],
+      [
+        'id'         => 2,
+        'nip'        => 234,
+        'nama'       => 'Guru2',
+        'jk'         => 'Laki-laki',
+        'alamat'     => 'Riau',
+        'created_at' => now(),
+        'updated_at' => now()
+      ],
+      [
+        'id'         => 3,
+        'nip'        => 345,
+        'nama'       => 'Guru3',
+        'jk'         => 'Laki-laki',
+        'alamat'     => 'Riau',
+        'created_at' => now(),
+        'updated_at' => now()
+      ]
+    ]);
+
+    DB::table('kurikulum')->insertOrIgnore([
+      [
+        'kd_kurikulum' => 22001,
+        'semester'     => 1,
+        'tahun'        => 2022,
+        'created_at'   => now(),
+        'updated_at'   => now()
+      ]
+    ]);
+
+    DB::table('pelajaran')->insertOrIgnore([
+      [
+        'kd_mapel'   => 'MP001',
+        'mapel'      => 'Matematika',
+        'status'     => true,
+        'id_guru'    => 1,
+        'created_at' => now(),
+        'updated_at' => now()
+      ],
+      [
+        'kd_mapel'   => 'MP002',
+        'mapel'      => 'IPA',
+        'status'     => true,
+        'id_guru'    => 2,
+        'created_at' => now(),
+        'updated_at' => now()
+      ],
+      [
+        'kd_mapel'   => 'MP003',
+        'mapel'      => 'IPS',
+        'status'     => true,
+        'id_guru'    => 3,
+        'created_at' => now(),
+        'updated_at' => now()
+      ]
+    ]);
+
+    DB::table('jadwal')->insertOrIgnore([
+      [
+        'kd_jadwal'    => 'JD001',
+        'id_kurikulum' => 1,
+        'jadwal'       => '{"senin":"IPS","selasa":"","rabu":"Matematika","kamis":"IPA","jumat":"","sabtu":""}}',
+        'created_at'   => now(),
+        'updated_at'   => now()
+      ]
+    ]);
   }
 }

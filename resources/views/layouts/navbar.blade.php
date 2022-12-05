@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center fw-bolder" href="#">
-      <img src="https://web.htp.ac.id/asset/images/logouhtp.png" alt="Logo" height="35" class="me-2" style="width: 35px; height: 35px;">
+      <img src="https://web.htp.ac.id/wp-content/uploads/2022/07/logouhtp.png" alt="Logo" height="35" class="me-2" style="width: 35px; height: 35px;">
       SIM Sekolah
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
