@@ -70,6 +70,7 @@ Before run `npm install` and `npm run build`
 
 ```text
 > Fix error (03-11-2022)
+> Change logo url & add db seed (05-12-2022)
 ```
 
 ***
